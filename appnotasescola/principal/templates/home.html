@@ -1,12 +1,20 @@
-<html>
-<head> 
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+ 
     <title>Página Inicial</title>
-</head>
-<body>
+
+{% endblock %}
+
+{% block body %} 
+
+
 
     <h1> Bem vindo à pagina inicial. User {{user}} </h1>
+{% endblock body %}
 
-</body>
 
 
-</html>
+
+
