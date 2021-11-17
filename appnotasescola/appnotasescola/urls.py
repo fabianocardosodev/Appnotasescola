@@ -20,7 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('principal.urls', namespace="principal")),
     path('accounts/', include("allauth.urls")),
-    path('notas/', include('principal.urls')),
+    
     
     
 ]
