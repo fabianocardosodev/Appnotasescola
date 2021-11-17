@@ -1,13 +1,10 @@
-from django.http.response import HttpResponse
-from django.shortcuts import render,HttpResponse
 
-def home(request):
-    user = request.user
-    context = {
-        'user': user
-    }
+from django.views.generic import TemplateView
+
+class HomePageView(TemplateView):
+    template_name = "home.html"
     
-    return render(request,"home.html")
+    
 
 
     
