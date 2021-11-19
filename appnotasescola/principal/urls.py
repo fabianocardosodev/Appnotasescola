@@ -7,6 +7,7 @@ app_name = "principal"
 urlpatterns = [ 
         path('', views.HomePageView.as_view(), name='home'),
         path('', views.HomePageView.as_view(), name='notas'),
+        path('', views.HomePageView.as_view(), name='Comunicados'),
         
               
 ]
