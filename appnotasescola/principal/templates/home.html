@@ -20,30 +20,61 @@
 <table class="table table-dark">
   <thead>
     <tr>
-      <th>Cód</th>
+      <th>Cód do Aluno</th>
       <th>Nome Aluno</th>
       <th>Nota CAEd</th>
       <th>Nota SED</th>
+      <th>Média</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>1</th>
-      <td>Joao</td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="digite código" required>
+        </div></td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="Campo Nome" required>
+        </div></td>
       <td><p><a href="https://avaliacaoemonitoramentosaopaulo.caeddigital.net/#!/minhapagina">nota</a></p></td>
       <td><a href="https://sed.educacao.sp.gov.br">nota</a></p></td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="valor da media*" required>
+        </div></td>
     </tr>
     <tr>
-      <th>2</th>
-      <td>Jose</td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="digite código" required>
+        </div></td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="Campo Nome" required>
+        </div></td>
       <td><p><a href="https://avaliacaoemonitoramentosaopaulo.caeddigital.net/#!/minhapagina">nota</a></p></td>
       <td><a href="https://sed.educacao.sp.gov.br">nota</a></p></td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="valor da media*" required>
+        </div></td>
     </tr>
     <tr>
-      <th>3</th>
-      <td>Alan</td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="digite código" required>
+        </div></td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="Campo Nome" required>
+        </div></td>
       <td><p><a href="https://avaliacaoemonitoramentosaopaulo.caeddigital.net/#!/minhapagina">nota</a></p></td>
       <td><a href="https://sed.educacao.sp.gov.br">nota</a></p></td>
+      <td><div class="field">
+            <label for="media"></label>
+            <input type="text" id="nome" name="nome" placeholder="valor da media*" required>
+        </div></td>
     </tr>
   </tbody>
 </table>
@@ -56,7 +87,7 @@
 
 <style>
 footer {
-  text-align:left;
+  text-align:center;
   padding: 3px;
   background-color: Darkgray;
   color: gray;
@@ -67,8 +98,8 @@ footer {
 
 <footer>
   <p>
-  <a href="https://https://https://avaliacaoemonitoramentosaopaulo.caeddigital.net/#!/pagina-inicial//">Site CAEd</a></p>
-  <a href="https://sed.educacao.sp.gov.br/">Site SED</a></p>
+  <a href="https://avaliacaoemonitoramentosaopaulo.caeddigital.net/#!/pagina-inicial"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">CAEd</button></a>
+  <a href="https://sed.educacao.sp.gov.br/"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">SED</button></a></p>
 </footer>
 
     {% else %}
@@ -76,7 +107,7 @@ footer {
 
      <h1>Bem vindo!</h1>
 
-     <p>Este é um protótipo de um aplicativo desenvolvido pelos alunos do curso de Tecnologia da Informação da Univesp.</p> 
+     <p>Este é o protótipo de um aplicativo desenvolvido pelos alunos do curso de Tecnologia da Informação da Univesp.</p> 
 
      <p>Aqui, você professor, tem uma ferramenta Web para auxiliar na avaliação de desempenho
      dos estudantes. Acessando as plataformas da Secretaria do Estado de São Paulo:
